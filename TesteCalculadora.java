@@ -24,6 +24,8 @@ public class TesteCalculadora {
         }else if(escolher == 2){
             System.out.println("A subtração dos números "+num1+ " - " + num2 + " = " + cal.subtrair(num1, num2) );
 
+        }else{
+            System.out.println("Digite número diferente de 1 e 2");
         }
 
 
