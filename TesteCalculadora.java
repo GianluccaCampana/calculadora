@@ -21,6 +21,9 @@ public class TesteCalculadora {
         
         if(escolher == 1){
             System.out.println("A soma dos números "+num1+ " + " + num2 + " = " + cal.soma(num1, num2) );
+        }else if(escolher == 2){
+            System.out.println("A subtração dos números "+num1+ " - " + num2 + " = " + cal.subtrair(num1, num2) );
+
         }
 
 
